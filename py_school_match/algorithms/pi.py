@@ -20,9 +20,9 @@ It stops when there are no cycles left.
 import random
 from collections import defaultdict
 
-import graph_tool.all
+import graph_tool
 
-from graph_tool.all import Graph, graph_draw, all_circuits, sfdp_layout
+from graph_tool import Graph, graph_draw, all_circuits, sfdp_layout
 
 from py_school_match.algorithms.abstract_matching_algorithm import AbstractMatchingAlgorithm
 from py_school_match.entities.student_queue import StudentQueue
